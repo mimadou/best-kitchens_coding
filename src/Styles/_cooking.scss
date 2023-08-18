@@ -1,0 +1,42 @@
+.cooking{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+
+
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    h1{
+        text-align: center;
+        color: rgb(175, 19, 19);
+    }
+    input[type="search"]{
+        margin: auto;
+        width: 250px;
+        height: 30px;
+        border: 1px solid black;
+        border-radius: 5px;
+    
+    }
+}
+.inputradio{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+
+    li{
+        list-style: none;
+    }
+
+    
+}
+
+
